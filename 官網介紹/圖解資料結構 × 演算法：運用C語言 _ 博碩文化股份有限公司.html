@@ -1,0 +1,442 @@
+
+<!-- saved from url=(0064)https://www.drmaster.com.tw/Bookinfo.asp?BookID=MP32124#download -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>圖解資料結構 × 演算法：運用C語言 | 博碩文化股份有限公司</title>
+
+<link href="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/drmaster.css" rel="stylesheet" type="text/css">
+<link href="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/pagination.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" async="" src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/analytics.js.下載"></script><script type="text/javascript" async="" src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/js"></script><script id="facebook-jssdk" src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/xfbml.customerchat.js.下載"></script><script src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/ytc.js.下載" async=""></script><script type="application/javascript">(function(w,d,t,r,u){w[u]=w[u]||[];w[u].push({'projectId':'10000','properties':{'pixelId':'10195768','he': '<email_address>','auid': '<sha256_hashed_user_id>'}});var s=d.createElement(t);s.src=r;s.async=true;s.onload=s.onreadystatechange=function(){var y,rs=this.readyState,c=w[u];if(rs&&rs!="complete"&&rs!="loaded"){return}try{y=YAHOO.ywa.I13N.fireBeacon;w[u]=[];w[u].push=function(p){y([p])};y(c)}catch(e){}};var scr=d.getElementsByTagName(t)[0],par=scr.parentNode;par.insertBefore(s,scr)})(window,document,"script","https://s.yimg.com/wi/ytc.js","dotq");</script>
+<script async="" src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/js(1)"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-135628433-1');
+</script>
+<style type="text/css" data-fbcssmodules="css:fb.css.base css:fb.css.dialog css:fb.css.iframewidget css:fb.css.customer_chat_plugin_iframe">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:'lucida grande', tahoma, verdana, arial, sans-serif;font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:'lucida grande', tahoma, verdana, arial, sans-serif;font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://connect.facebook.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://connect.facebook.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://connect.facebook.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:15px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://connect.facebook.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0;margin:0;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://connect.facebook.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:#fff;display:block;font-size:19px;padding-top:20px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .4);bottom:0;left:0;min-height:100%;position:absolute;right:0;top:0;width:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content .dialog_header{background:linear-gradient(from(#738aba), to(#2c4987));border-bottom:1px solid;border-color:#043b87;box-shadow:white 0 1px 1px -1px inset;color:#fff;font:bold 14px Helvetica, sans-serif;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:13px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:13px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:linear-gradient(from(#4267B2), to(#2a4887));background-clip:padding-box;border:1px solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:#fff;font:bold 12px Helvetica, sans-serif;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:17px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://connect.facebook.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #4a4a4a;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f5f6f7;border:1px solid #4a4a4a;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://connect.facebook.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-position:50% 50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}
+.fb_mpn_mobile_landing_page_slide_out{animation-duration:200ms;animation-name:fb_mpn_landing_page_slide_out;transition-timing-function:ease-in}.fb_mpn_mobile_landing_page_slide_out_from_left{animation-duration:200ms;animation-name:fb_mpn_landing_page_slide_out_from_left;transition-timing-function:ease-in}.fb_mpn_mobile_landing_page_slide_up{animation-duration:500ms;animation-name:fb_mpn_landing_page_slide_up;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_in{animation-duration:300ms;animation-name:fb_mpn_bounce_in;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_out{animation-duration:300ms;animation-name:fb_mpn_bounce_out;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_out_v2{animation-duration:300ms;animation-name:fb_mpn_fade_out;transition-timing-function:ease-in}.fb_customer_chat_bounce_in_v2{animation-duration:300ms;animation-name:fb_bounce_in_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_in_from_left{animation-duration:300ms;animation-name:fb_bounce_in_from_left;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_v2{animation-duration:300ms;animation-name:fb_bounce_out_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_from_left{animation-duration:300ms;animation-name:fb_bounce_out_from_left;transition-timing-function:ease-in}.fb_invisible_flow{display:inherit;height:0;overflow-x:hidden;width:0}@keyframes fb_mpn_landing_page_slide_out{0%{margin:0 12px;width:100% - 24px}60%{border-radius:18px}100%{border-radius:50%;margin:0 24px;width:60px}}@keyframes fb_mpn_landing_page_slide_out_from_left{0%{left:12px;width:100% - 24px}60%{border-radius:18px}100%{border-radius:50%;left:12px;width:60px}}@keyframes fb_mpn_landing_page_slide_up{0%{bottom:0;opacity:0}100%{bottom:24px;opacity:1}}@keyframes fb_mpn_bounce_in{0%{opacity:.5;top:100%}100%{opacity:1;top:0}}@keyframes fb_mpn_fade_out{0%{bottom:30px;opacity:1}100%{bottom:0;opacity:0}}@keyframes fb_mpn_bounce_out{0%{opacity:1;top:0}100%{opacity:.5;top:100%}}@keyframes fb_bounce_in_v2{0%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}50%{transform:scale(1.03, 1.03);transform-origin:bottom right}100%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}}@keyframes fb_bounce_in_from_left{0%{opacity:0;transform:scale(0, 0);transform-origin:bottom left}50%{transform:scale(1.03, 1.03);transform-origin:bottom left}100%{opacity:1;transform:scale(1, 1);transform-origin:bottom left}}@keyframes fb_bounce_out_v2{0%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}100%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}}@keyframes fb_bounce_out_from_left{0%{opacity:1;transform:scale(1, 1);transform-origin:bottom left}100%{opacity:0;transform:scale(0, 0);transform-origin:bottom left}}@keyframes slideInFromBottom{0%{opacity:.1;transform:translateY(100%)}100%{opacity:1;transform:translateY(0)}}@keyframes slideInFromBottomDelay{0%{opacity:0;transform:translateY(100%)}97%{opacity:0;transform:translateY(100%)}100%{opacity:1;transform:translateY(0)}}</style></head>
+<body onload="MM_preloadImages(&#39;images/TopMenu-Blue-01.jpg&#39;,&#39;images/TopMenu-Blue-02.jpg&#39;,&#39;images/TopMenu-Blue-03.jpg&#39;,&#39;images/TopMenu-Blue-05.jpg&#39;,&#39;images/TopMenu-Blue-08.jpg&#39;,&#39;images/TopMenu-Blue-09.jpg&#39;,&#39;images/TopMenu-Blue-10.jpg&#39;,&#39;images/TopMenu-Blue-11.jpg&#39;)">
+<table width="1200" border="0" align="center" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td valign="top">
+<table width="1200" border="0" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td width="296" height="70"><a href="https://www.drmaster.com.tw/index.asp"><img src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/index_01.jpg" alt="回首頁" width="296" height="70" border="0"></a></td>
+<td width="322" background="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/index_02.jpg">&nbsp;</td>
+<td>
+<table width="582" border="0" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td height="35" colspan="4" align="right">
+<table width="450" border="0" cellpadding="0" cellspacing="0">
+<form id="form2" name="form2" method="POST" action="https://www.drmaster.com.tw/Bookinfo.asp?BookID=MP32124"></form>
+<tbody><tr>
+<td><font size="2">帳號</font>
+<label>
+<input name="account" type="text" id="account" size="10">
+</label></td>
+<td><label><font size="2">密碼</font>
+<input name="password" type="password" id="password" size="10">
+</label></td>
+<td><div align="right">
+<input type="image" name="imageField" id="imageField" src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/Login.gif">
+</div></td>
+<td width="40"><div align="right"><font size="2"><a href="https://www.drmaster.com.tw/Register.asp">註冊</a></font></div></td>
+<td width="60"><div align="right"><font size="2"><a href="https://www.drmaster.com.tw/ForgotPassword.asp">忘記密碼</a></font></div></td>
+</tr>
+
+</tbody></table>
+</td>
+</tr>
+<form id="form1" name="form1" method="post" action="https://www.drmaster.com.tw/Publish_Search.asp"></form>
+<tr>
+<td width="290" align="right">&nbsp;</td>
+<td height="35" align="right">
+<select name="selectID" id="selectID">
+<option value="1">書名</option>
+<option value="2">書號</option>
+<option value="3">作者</option>
+<option value="4">ISBN</option>
+</select> </td>
+<td align="right"><input class="searchinptxt" name="content" type="text" id="content" size="20" placeholder="請先選擇想搜尋的類型"></td>
+<td align="right"><input type="image" src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/search_bnt.gif" name="button" id="button" value="搜尋"></td>
+</tr>
+
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td>
+<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div><div class=" fb_iframe_widget fb_invisible_flow" fb-iframe-plugin-query="app_id=&amp;attribution=install_email&amp;attribution_version=biz_inbox&amp;container_width=1200&amp;current_url=https%3A%2F%2Fwww.drmaster.com.tw%2FBookinfo.asp%3FBookID%3DMP32124&amp;is_loaded_by_facade=true&amp;local_state=%7B%22v%22%3A2%2C%22path%22%3A2%2C%22chatState%22%3A1%2C%22visibility%22%3A%22hidden%22%2C%22showUpgradePrompt%22%3A%22not_shown%22%2C%22greetingVisibility%22%3A%22hidden%22%2C%22shouldShowLoginPage%22%3Afalse%7D&amp;locale=zh_TW&amp;log_id=3a429f8d-fa9a-43c4-8100-661bf4b7632b&amp;page_id=150967594984088&amp;request_time=1705559679045&amp;sdk=joey"><span style="vertical-align: bottom; width: 1000px; height: 0px;"><iframe name="f2396315b13545" width="1000px" height="1000px" data-testid="dialog_iframe" title="" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/customerchat.html" style="padding: 0px; position: fixed; z-index: 2147483646; border-radius: 16px; top: auto; background: none; width: 399px; bottom: 84px; max-height: 0px; right: 16px; visibility: visible; height: 373px;" class=""></iframe></span></div><div class="fb_dialog  fb_dialog_advanced" alignment="right" desktop_bottom_spacing="24"><div class="fb_dialog_content"><iframe name="blank_f2396315b13545" width="60px" tabindex="-1" data-testid="bubble_iframe" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/bubble.html" style="background: none; border-radius: 60px; bottom: 24px; box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 12px 0px; display: block; height: 60px; margin: 0px 12px; overflow: visible; padding: 0px; position: fixed; right: 12px; top: auto; width: 60px; z-index: 2147483644;"></iframe><iframe name="availabilityStatus_f2396315b13545" tabindex="-1" data-testid="availabilityStatus_iframe" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/bubble(1).html" style="border-radius: 50%; bottom: 21.5px; height: 15px; position: fixed; right: 24px; width: 15px; z-index: 2147483646;"></iframe><iframe name="unread_f2396315b13545" tabindex="-1" data-testid="unread_iframe" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/bubble(2).html" style="background: none; border-radius: 4pt; bottom: 68px; height: 24px; position: fixed; right: 22px; width: 20px; z-index: 2147483645;"></iframe><iframe name="greeting_f2396315b13545" tabindex="-1" data-testid="greeting_iframe" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/bubble(3).html" style="border: none; max-height: 0px; min-height: 0px;"></iframe></div></div></div>
+<script>
+window.fbAsyncInit = function() {
+  FB.init({
+    xfbml            : true,
+    version          : 'v13.0'
+  });
+};
+
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/zh_TW/sdk/xfbml.customerchat.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<script type="text/javascript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td width="121"><a href="https://www.drmaster.com.tw/DrMaster_AboutDrMaster.asp" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage(&#39;Image1&#39;,&#39;&#39;,&#39;images/TopMenu-Blue-01.jpg&#39;,1)"><img src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/TopMenu-Gray-01.jpg" alt="關於博碩" name="Image1" width="121" height="49" border="0" id="Image1"></a></td>
+<td width="121"><a href="https://www.drmaster.com.tw/Publish_Newbook.asp" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage(&#39;Image2&#39;,&#39;&#39;,&#39;images/TopMenu-Blue-02.jpg&#39;,1)"><img src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/TopMenu-Gray-02.jpg" alt="博碩好讀" name="Image2" width="121" height="49" border="0" id="Image2"></a></td>
+<td width="121"><a href="https://www.drmaster.com.tw/School_Newbook.asp" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage(&#39;Image3&#39;,&#39;&#39;,&#39;images/TopMenu-Blue-03.jpg&#39;,1)"><img src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/TopMenu-Gray-03.jpg" alt="校園圖書" name="Image3" width="121" height="49" border="0" id="Image3"></a></td>
+
+<td width="121"><a href="https://www.drmaster.com.tw/MOCC_Aboutwhat.asp" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage(&#39;Image5&#39;,&#39;&#39;,&#39;images/TopMenu-Blue-05.jpg&#39;,1)"><img src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/TopMenu-Gray-05.jpg" alt="MOCC認證" name="Image5" width="121" height="49" border="0" id="Image5"></a></td>
+
+<td width="121"><a href="https://www.drmaster.com.tw/howtodownload.asp" onmouseover="MM_swapImage(&#39;Image10&#39;,&#39;&#39;,&#39;images/TopMenu-Blue-10.jpg&#39;,1)" onmouseout="MM_swapImgRestore()"><img src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/TopMenu-Gray-10.jpg" alt="下載教學" name="Image6" width="121" height="49" border="0" id="Image10"></a></td>
+
+<td width="121"><a href="https://www.metalearning.com.tw/" target="_blank" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage(&#39;Image9&#39;,&#39;&#39;,&#39;images/TopMenu-Blue-09.jpg&#39;,1)"><img src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/TopMenu-Gray-09.jpg" alt="元學堂" name="Image9" width="121" height="49" border="0" id="Image9"></a></td>
+<td align="right"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td height="10" background="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/Gray_Line.jpg"></td>
+</tr>
+</tbody></table>
+<br>
+<table width="1200" border="0" align="center" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td width="230" valign="top">
+<table width="178" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td width="8" height="8" background="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/LeftMenu_01.gif"></td>
+<td width="162" background="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/LeftMenu_02.gif"></td>
+<td width="8" height="8" background="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/LeftMenu_03.gif"></td>
+</tr>
+<tr>
+<td height="51" background="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/LeftMenu_04.gif"></td>
+<td><img src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/LeftMenu_DrMasterGoodRead.gif" width="162" height="51" alt="博碩好讀"></td>
+<td background="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/LeftMenu_06.gif"></td>
+</tr>
+<tr>
+<td background="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/LeftMenu_07.gif"></td>
+<td valign="top"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td width="5" height="40">&nbsp;</td>
+<td class="blueoff" onmouseover="javascript:this.className=&#39;blueon01&#39;" onmouseout="javascript:this.className=&#39;blueoff&#39;" height="40"><a href="https://www.drmaster.com.tw/Publish_Newbook.asp">新書推薦</a></td>
+</tr>
+<tr>
+<td height="40">&nbsp;</td>
+<td class="blueoff" onmouseover="javascript:this.className=&#39;blueon01&#39;" onmouseout="javascript:this.className=&#39;blueoff&#39;" height="40"><a href="https://www.drmaster.com.tw/Publish_Preview.asp">出版預告</a></td>
+</tr>
+<tr>
+<td height="40">&nbsp;</td>
+<td class="blueoff" onmouseover="javascript:this.className=&#39;blueon01&#39;" onmouseout="javascript:this.className=&#39;blueoff&#39;" height="40"><a href="https://www.drmaster.com.tw/Publish_Masterpiece.asp">名家名著</a></td>
+</tr>
+<tr>
+<td height="40">&nbsp;</td>
+<td class="blueoff" onmouseover="javascript:this.className=&#39;blueon01&#39;" onmouseout="javascript:this.className=&#39;blueoff&#39;" height="40"><a href="https://www.drmaster.com.tw/Publish_ithelpfans.asp">iT達人祕笈</a></td>
+</tr>
+<tr>
+<td height="40">&nbsp;</td>
+<td class="blueoff" onmouseover="javascript:this.className=&#39;blueon01&#39;" onmouseout="javascript:this.className=&#39;blueoff&#39;" height="40"><p><a href="https://www.drmaster.com.tw/Publish_Index.asp">分類索引</a></p>
+</td>
+</tr>
+<tr>
+<td height="40">&nbsp;</td>
+<td class="blueoff" onmouseover="javascript:this.className=&#39;blueon01&#39;" onmouseout="javascript:this.className=&#39;blueoff&#39;" height="40"><p><a href="https://www.drmaster.com.tw/Publish_AllBook.asp">出版總覽</a></p>
+</td>
+</tr>
+<tr>
+<td height="40">&nbsp;</td>
+<td class="blueoff" onmouseover="javascript:this.className=&#39;blueon01&#39;" onmouseout="javascript:this.className=&#39;blueoff&#39;" height="40"><p><a href="https://www.drmaster.com.tw/Publish_Service.asp">讀者服務</a></p>
+</td>
+</tr>
+<tr>
+<td height="40">&nbsp;</td>
+<td class="blueoff" onmouseover="javascript:this.className=&#39;blueon01&#39;" onmouseout="javascript:this.className=&#39;blueoff&#39;" height="40"><a href="https://www.drmaster.com.tw/Publish_WantAuthor.asp">徵求作者</a></td>
+</tr>
+</tbody></table></td>
+<td background="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/LeftMenu_09.gif"></td>
+</tr>
+<tr>
+<td height="14" background="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/LeftMenu_10.gif"></td>
+<td background="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/LeftMenu_11.gif"></td>
+<td background="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/LeftMenu_12.gif"></td>
+</tr>
+</tbody></table>
+</td>
+<td width="970">
+<table width="970" height="200" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td width="49" height="90" background="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/table01_01.jpg">&nbsp;</td>
+<td width="857" background="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/table01_02.jpg">
+<table width="80%" border="0" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td>
+<a href="https://www.drmaster.com.tw/index.asp">首頁</a> &gt;&gt; 書籍介紹</td>
+</tr>
+</tbody></table> </td>
+<td width="64" background="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/table01_03.jpg">&nbsp;</td>
+</tr>
+<tr>
+<td background="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/table01_04.jpg">&nbsp;</td>
+<td>
+<table width="98%" border="0" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td width="180" height="220" align="center" valign="middle"><a href="https://www.drmaster.com.tw/Cover/big/MP32124.jpg" target="_blank"><img src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/MP32124.png" alt="點我可放大圖片" width="160" border="0"></a></td>
+<td align="center" valign="top"><table width="98%" border="0" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td colspan="3" align="left">&nbsp;</td>
+</tr>
+<tr>
+<td colspan="3" align="left" class="fnt_16_px_B hin_01">書名：圖解資料結構 × 演算法：運用C語言</td>
+</tr>
+<tr>
+<td width="33%" align="left" class="hin_02">書號：MP32124 </td>
+<td width="33%" align="left" class="hin_02">作者：胡昭民</td>
+<td align="left" class="hin_03"> ISBN：
+978-626-333-119-8 </td>
+</tr>
+<tr>
+<td align="left" class="hin_02">定價：NT$600元 </td>
+<td align="left" class="hin_02">印刷：單色</td>
+<td align="left" class="hin_03">頁數：488頁</td>
+</tr>
+<tr>
+<td align="left" class="hin_02">書籍規格：17*23</td>
+<td align="left" class="hin_02">上市日：2022/6/29</td>
+<td align="left" class="hin_03">譯者：(無)</td>
+</tr>
+<tr>
+<td align="left" class="hin_02">學習定位：初階</td>
+<td align="left" class="hin_02">本書附件：官網下載</td>
+<td align="left" class="hin_03">&nbsp;
+<a href="https://www.drmaster.com.tw/Bookinfo.asp?BookID=MP32124#download"><img src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/btn_03_bd.gif" alt="快速前往" width="70" height="22" border="0"></a>
+<a href="https://www.drmaster.com.tw/Bookinfo.asp?BookID=MP32124#down_s"><img src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/pin_down_s.gif" alt="範例" width="25" height="25" border="0"></a>
+</td>
+</tr>
+<tr>
+<td align="left" class="hin_02">前往購買 &gt;&gt;
+<font color="#FF0000">蝦皮購物</font><a href="https://shopee.tw/product/728783014/14490114426/" target="_blank"><img src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/car.gif" alt="" border="0" align="absmiddle"></a>
+
+</td><td align="left" class="hin_02">類別：電腦技術</td>
+<td align="left" class="hin_03">&nbsp;</td>
+</tr>
+<tr>
+<td><iframe src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/like.html" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:250px; height:80px;" allowtransparency="true"></iframe></td>
+<td valign="top">&nbsp;
+<a href="javascript: void(window.open(&#39;https://www.facebook.com/share.php?u=&#39;.concat(encodeURIComponent(location.href)) ));"><img src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/Facebook_1616.jpg" title="分享到Facebook" width="16" height="16" border="0" align="absmiddle"></a>&nbsp;
+<a href="javascript: void(window.open(&#39;https://www.plurk.com/?qualifier=shares&amp;status=&#39; .concat(encodeURIComponent(location.href)) .concat(&#39; &#39;) .concat(&#39;(&#39;) .concat(encodeURIComponent(document.title)) .concat(&#39;)&#39;)));"><img src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/Plurk_1616.jpg" title="推文到噗浪" width="16" height="16" border="0" align="absmiddle"></a>&nbsp;
+<a href="javascript: void(window.open(&#39;https://twitter.com/home/?status=&#39;.concat(encodeURIComponent(document.title)) .concat(&#39; &#39;) .concat(encodeURIComponent(location.href))));"><img src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/Twitter_1616.jpg" title="推文到Twitter" width="16" height="16" border="0" align="absmiddle"></a> </td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td height="40" colspan="3" align="right" valign="bottom">
+<a href="https://www.drmaster.com.tw/Bookinfo.asp?BookID=MP32124#info"><img src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/book_Introduction.gif" alt="快速前往" width="70" height="22" border="0"></a> <a href="https://www.drmaster.com.tw/Bookinfo.asp?BookID=MP32124#list"><img src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/book_menu.gif" alt="快速前往" width="70" height="22" border="0"></a> <a href="https://www.drmaster.com.tw/Bookinfo.asp?BookID=MP32124#author"><img src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/book_author.gif" width="70" height="22" border="0"></a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp; </td>
+</tr>
+</tbody></table></td>
+</tr>
+</tbody></table>
+<p>&nbsp;</p>
+<table width="95%" border="0" cellpadding="0" cellspacing="0" class="hin_up">
+<tbody><tr>
+<td align="left">&nbsp;</td>
+</tr>
+<tr>
+<td height="70" align="left"><img src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/bar_info.gif" width="165" height="60"><a id="info"></a><a href="https://www.drmaster.com.tw/Bookinfo.asp?BookID=MP32124#" tbindex="0"><img src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/up.gif" class="copytop" border="0"></a></td>
+</tr>
+<tr>
+<td align="left">
+<ul>
+資料結構是有志從事資訊工作的專業人員，不得不重視的一門基礎課程。對於第一次接觸資料結構課程的初學者來說，過多的內容及不清楚的表達常是造成學習障礙的最主要原因。本書是以C程式語言實作來解說資料結構概念的入門書，內容淺顯易懂，藉由豐富圖例來闡述基本概念，將重要理論、演算法做最意簡言明的詮釋及舉例，同時配合完整的範例程式碼，期能透過實作來熟悉資料結構。因此，這是一本兼具內容及專業的資料結構教學用書。<br><br><font color="#4f9af0"><b>【本書特色】</b></font><br>※內容架構完整，邏輯清楚，採用豐富的圖例來闡述基本觀念及應用，有效提高可讀性。<br>※以C語言實作資料結構中的重要理論，以範例程式說明資料結構的內涵。<br>※強調邊作邊學：提供書中範例完整程式檔，給予最完整的支援，加深學習記憶。<br>※驗收學習成果：參閱國家考試題型，設計難易適中的習題，提供進一步演練。<br><br><font color="#4f9af0"><b>【重點主題】</b></font><br>◆ 資料結構入門與演算法<br>◆ 陣列結構 / 串列結構<br>◆ 堆疊 / 佇列<br>◆ 樹狀結構 / 圖形結構<br>◆ 排序演算法<br>◆ 搜尋演算法與雜湊函數<br>◆ 資料結構專有名詞<br>
+</ul> </td>
+</tr>
+<tr>
+<td align="left" class="hin_04">&nbsp;</td>
+</tr>
+<tr>
+<td height="70" align="left"><img src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/bar_list.gif" width="165" height="60"><a name="list" id="info10"></a><a href="https://www.drmaster.com.tw/Bookinfo.asp?BookID=MP32124#" tbindex="0"><img src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/up.gif" class="copytop" border="0"></a></td>
+</tr>
+<tr>
+<td align="left"><ul>
+<font color="#4f9af0"><b>Chapter 1 資料結構入門與演算法</b></font><br>1-1 資料結構的定義<br>　　1-1-1 資料與資訊<br>　　1-1-2 資料的特性<br>　　1-1-3 資料結構的應用<br>1-2 演算法<br>　　1-2-1 演算法的條件<br>　　1-2-2 演算法的表現方式<br>1-3 常見演算法簡介<br>　　1-3-1 分治法<br>　　1-3-2 貪心法<br>　　1-3-3 枚舉法<br>　　1-3-4 巴斯卡三角形演算法<br>　　1-3-5 質數求解演算法<br>1-4 演算法效能分析<br>　　1-4-1 Big-oh<br>　　1-4-2 Ω（omega）<br>　　1-4-3 θ（theta）<br><br><font color="#4f9af0"><b>Chapter 2 陣列結構</b></font><br>2-1 線性串列簡介<br>　　2-1-1 儲存結構簡介<br>2-2 認識陣列<br>　　2-2-1 二維陣列<br>　　2-2-2 三維陣列<br>　　2-2-3 n 維陣列<br>2-3 矩陣<br>　　2-3-1 矩陣相加<br>　　2-3-2 矩陣相乘<br>　　2-3-3 轉置矩陣<br>　　2-3-4 稀疏矩陣<br>　　2-3-5 上三角形矩陣<br>　　2-3-6 下三角形矩陣<br>　　2-3-7 帶狀矩陣<br>2-4 陣列與多項式<br>　　2-4-1 認識多項式 <br><br><font color="#4f9af0"><b>Chapter 3 串列結構</b></font><br>3-1 動態配置記憶體<br>　　3-1-1 動態配置變數<br>3-2 單向串列<br>　　3-2-1 建立單向串列<br>　　3-2-2 走訪單向串列<br>　　3-2-3 單向串列插入新節點<br>　　3-2-4 單向串列刪除節點<br>　　3-2-5 單向串列的反轉<br>　　3-2-6 單向串列的連結<br>　　3-2-7 多項式串列表示法<br>3-3 環狀串列結構<br>　　3-3-1 環狀串列的建立與走訪<br>　　3-3-2 環狀串列的插入節點<br>　　3-3-3 環狀串列的刪除節點<br>　　3-3-4 環狀串列的連結<br>　　3-3-5 稀疏矩陣的環狀串列表示法<br>3-4 雙向串列<br>　　3-4-1 雙向串列的建立與走訪<br>　　3-4-2 雙向串列加入新節點<br>　　3-4-3 雙向串列刪除節點<br><br><font color="#4f9af0"><b>Chapter 4 堆疊</b></font><br>4-1 堆疊簡介<br>　　4-1-1 陣列實作堆疊<br>　　4-1-2 串列實作堆疊<br>4-2 堆疊的應用<br>　　4-2-1 遞迴演算法<br>　　4-2-2 動態規劃演算法<br>　　4-2-3 河內塔問題<br>　　4-2-4 回溯法－老鼠走迷宮<br>　　4-2-5 八皇后問題<br>4-3 算術運算式的表示法<br>　　4-3-1 中序轉為前序與後序<br>　　4-3-2 前序與後序轉為中序<br>　　4-3-3 中序表示法求值<br>　　4-3-4 前序表示法求值<br>　　4-3-5 後序表示法求值<br><br><font color="#4f9af0"><b>Chapter 5 佇列</b></font><br>5-1 認識佇列 <br>　　5-1-1 佇列的工作運算　　<br>　　5-1-2 佇列的應用 <br>　　5-1-3 陣列實作佇列<br>　　5-1-4 串列實作佇列<br>5-2 環狀佇列、雙向佇列與優先佇列<br>　　5-2-1 環狀佇列<br>　　5-2-2 雙向佇列<br>　　5-2-3 優先佇列<br><br><font color="#4f9af0"><b>Chapter 6 樹狀結構</b></font><br>6-1 樹的基本觀念<br>　　6-1-1 樹專有名詞簡介<br>6-2 二元樹簡介<br>　　6-2-1 二元樹的定義<br>　　6-2-2 特殊二元樹簡介 <br>6-3 二元樹儲存方式<br>　　6-3-1 陣列表示法 <br>　　6-3-2 串列表示法<br>6-4 二元樹走訪 <br>　　6-4-1 中序走訪<br>　　6-4-2 後序走訪<br>　　6-4-3 前序走訪<br>　　6-4-4 二元樹節點插入與刪除<br>　　6-4-5 二元運算樹<br>6-5 引線二元樹<br>　　6-5-1 二元樹轉為引線二元樹<br>6-6 樹的二元樹表示法<br>　　6-6-1 樹化為二元樹<br>　　6-6-2 二元樹轉換成樹<br>　　6-6-3 樹林化為二元樹<br>　　6-6-4 二元樹轉換成樹林<br>　　6-6-5 樹與樹林的走訪<br>　　6-6-6 決定唯一二元樹<br>6-7 最佳化二元搜尋樹<br>　　6-7-1 延伸二元樹<br>　　6-7-2 霍夫曼樹<br>6-8 平衡樹<br>　　6-8-1 平衡樹的定義<br>6-9 進階樹狀結構的應用<br>　　6-9-1 決策樹<br>　　6-9-2 B 樹<br>　　6-9-3 二元空間分割樹（BSP）<br>　　6-9-4 四元樹/八元樹<br><br><font color="#4f9af0"><b>Chapter 7 圖形結構</b></font><br>7-1 圖形簡介 <br>　　7-1-1 尤拉環與尤拉鏈<br>　　7-1-2 圖形的定義 <br>　　7-1-3 無向圖形 <br>　　7-1-4 有向圖形 <br>7-2 圖形的資料表示法 <br>　　7-2-1 相鄰矩陣法 <br>　　7-2-2 相鄰串列法 <br>　　7-2-3 相鄰複合串列法 <br>　　7-2-4 索引表格法 <br>7-3 圖形的走訪 <br>　　7-3-1 先深後廣法<br>　　7-3-2 先廣後深法<br>7-4 擴張樹簡介 <br>　　7-4-1 DFS擴張樹及BFS擴張樹 <br>　　7-4-2 最小花費擴張樹 <br>　　7-4-3 Kruskal演算法<br>　　7-4-4 Prim演算法 <br>7-5 圖形最短路徑<br>　　7-5-1 單點對全部頂點 <br>　　7-5-2 兩兩頂點間的最短路徑 <br>　　7-5-3 A*演算法 <br>7-6 AOV網路與拓樸排序 <br>　　7-6-1 拓樸序列簡介 <br>7-7 AOE網路 <br>　　7-7-1 臨界路徑<br><br><font color="#4f9af0"><b>Chapter 8 排序演算法</b></font><br>8-1 認識排序<br>　　8-1-1 排序的分類 <br>　　8-1-2 排序演算法分析 <br>8-2 內部排序法 <br>　　8-2-1 氣泡排序法 <br>　　8-2-2 選擇排序法 <br>　　8-2-3 插入排序法 <br>　　8-2-4 謝耳排序法<br>　　8-2-5 合併排序法<br>　　8-2-6 快速排序法<br>　　8-2-7 堆積排序法<br>　　8-2-8 基數排序法 <br>8-3 外部排序法 <br>　　8-3-1 直接合併排序法 <br>　　8-3-2 k 路合併法<br><br><font color="#4f9af0"><b>Chapter 9 搜尋演算法與雜湊函數</b></font><br>9-1 常見搜尋演算法 <br>　　9-1-1 循序搜尋法 <br>　　9-1-2 二分搜尋法<br>　　9-1-3 內插搜尋法 <br>　　9-1-4 費氏搜尋法 <br>9-2 雜湊搜尋法<br>　　9-2-1 雜湊函數簡介 <br>9-3 常見雜湊函數 <br>　　9-3-1 除法 <br>　　9-3-2 中間平方法<br>　　9-3-3 折疊法 <br>　　9-3-4 數位分析法 <br>9-4 碰撞與溢位處理 <br>　　9-4-1 線性探測法<br>　　9-4-2 平方探測法 <br>　　9-4-3 再雜湊法<br>　　9-4-4 鏈結串列法<br><br><font color="#4f9af0"><b>附錄A 資料結構專有名詞索引</b></font>
+</ul></td>
+</tr>
+<tr>
+<td align="left" class="hin_04">&nbsp;</td>
+</tr>
+<tr>
+<td height="70" align="left"><img src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/bar_author.gif" width="165" height="60"><a name="author" id="info3"></a><a href="https://www.drmaster.com.tw/Bookinfo.asp?BookID=MP32124#" tbindex="0"><img src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/up.gif" class="copytop" border="0"></a></td>
+</tr>
+<tr>
+<td align="left">
+<ul>
+</ul> </td>
+</tr>
+<tr>
+<td align="left" class="hin_04">&nbsp;</td>
+</tr>
+<tr>
+<td align="left"><img src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/bar_down.gif" width="165" height="60"><a name="download" id="info5"></a><a href="https://www.drmaster.com.tw/Bookinfo.asp?BookID=MP32124#" tbindex="0"><img src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/up.gif" class="copytop" border="0"></a></td>
+</tr>
+<tr>
+<td align="center"><br>
+<table width="96%" border="0" cellpadding="0" cellspacing="0" class="hin_03">
+<tbody><tr>
+<td width="50" align="center"><img src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/pin_down_s.gif" width="25" height="25"></td>
+<td align="left">範例下載<a name="down_s" id="info6"></a></td>
+</tr>
+<tr>
+<td align="center">&nbsp;</td>
+<td align="left"> <ol>
+<li><a href="https://download.drmaster.com.tw/download/example/MP32124_example.rar">範例 (62.4KB)</a></li>
+</ol></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<div class="pagination scott"> </div>
+&nbsp;</td>
+<td background="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/table01_06.jpg">&nbsp;</td>
+</tr>
+<tr>
+<td height="58" background="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/table01_07.jpg">&nbsp;</td>
+<td background="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/table01_08.jpg">&nbsp;</td>
+<td background="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/table01_09.jpg">&nbsp;</td>
+</tr>
+</tbody></table></td>
+</tr>
+</tbody></table>
+<br>
+<table width="1200" border="0" align="center" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td valign="top">
+<link href="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/salescounter.css" rel="stylesheet" type="text/css">
+<table width="1200" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr class="bg-gradiant">
+<td colspan="3">博碩文化客服信箱</td>
+</tr>
+<tr>
+<td colspan="3">&nbsp;</td>
+</tr>
+<tr>
+<td colspan="3" align="center" class="title01">
+<p><font size="+1"><a href="mailto:dr26962869@gmail.com">dr26962869@gmail.com</a></font></p>
+</td>
+</tr>
+<tr>
+<td colspan="3">&nbsp;</td>
+</tr>
+<tr class="bg-gradiant">
+<td colspan="3">文教業務團隊</td>
+</tr>
+<tr>
+<td width="500">
+<table width="100%" class="title01">
+<tbody><tr>
+<td colspan="2">台北、新北、桃園、基隆、宜蘭、花蓮、金門</td>
+</tr>
+<tr>
+<td width="50%"><font class="salesname">汪 玉 鳳</font> <a href="https://www.drmaster.com.tw/images/contact/DrMaster_carlo_LINE.jpg" target="_blank"><img src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/unnamed.png" width="30" height="30" style="vertical-align:middle;"></a><br>LINE ID：<a href="https://line.me/ti/p/oHqpsUOj_s">0925177716</a><br><a href="tel:+886-925177716">0925-177716</a><br><a href="mailto:carlo@drmaster.com.tw">carlo@drmaster.com.tw</a></td>
+<td width="50%"><font class="salesname">郭 南 彤</font> <a href="https://www.drmaster.com.tw/images/contact/DrMaster_Tiger_LINE.jpg" target="_blank"><img src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/unnamed.png" width="30" height="30" style="vertical-align:middle;"></a><br>LINE ID：<a href="https://line.me/ti/p/VCASdTKWTx">rgtech101</a><br><a href="tel:+886-917727778">0917-727778</a><br><a href="mailto:tigerguo@drmaster.com.tw">tigerguo@drmaster.com.tw</a></td>
+</tr>
+<tr>
+<td colspan="2">助理分機 519</td>
+</tr>
+</tbody></table>
+</td>
+<td width="350" class="title01">新竹、苗栗、台中、彰化、南投、雲林<br><font class="salesname">林 世 昌</font> <a href="https://www.drmaster.com.tw/images/contact/DrMaster_Rick_LINE.jpg" target="_blank"><img src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/unnamed.png" width="30" height="30" style="vertical-align:middle;"></a><br>LINE ID：<a href="https://line.me/ti/p/-5Fdr6JjYb">0925275775</a><br><a href="tel:+886-925275775">0925-275775</a><br><a href="mailto:rick@drmaster.com.tw">rick@drmaster.com.tw</a> <br>助理分機 519</td>
+<td width="350" class="title01">嘉義、台南、高雄、屏東、台東、澎湖<br><font class="salesname">林 月 玲</font> <a href="https://www.drmaster.com.tw/images/contact/DrMaster_Dony_LINE.jpg" target="_blank"><img src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/unnamed.png" width="30" height="30" style="vertical-align:middle;"></a><br>LINE ID：<a href="https://line.me/ti/p/pduzOu-IrK">0926858627</a><br><a href="tel:+886-926858627">0926-858627</a><br><a href="mailto:donylin@drmaster.com.tw">donylin@drmaster.com.tw</a> <br>助理分機 238</td>
+</tr>
+<tr>
+<td colspan="3">&nbsp;</td>
+</tr>
+<tr class="bg-gradiant">
+<td colspan="3">MOCC 認證小組</td>
+</tr>
+<tr>
+<td colspan="3">&nbsp;</td>
+</tr>
+<tr>
+<td colspan="3" align="center">
+<table width="70%" border="0" cellpadding="0" cellspacing="0">
+
+<tbody><tr class="title02">
+<td>&nbsp;</td>
+<td><font class="salesname">林&nbsp;雯&nbsp;玲</font></td>
+<td>電話：<a href="tel:+886-226962869">02-2696-2869</a></td>
+<td>分機：623</td>
+<td><a href="mailto:software24@drmaster.com.tw">software24@drmaster.com.tw</a></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<p>&nbsp;</p>
+<link href="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/bottom.css" rel="stylesheet" type="text/css">
+<table width="1200" border="0" cellpadding="0" cellspacing="0" bgcolor="#3e3a39">
+<tbody><tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td height="28" colspan="3" background="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/Line_3e3a39.jpg">&nbsp;</td>
+</tr>
+<tr>
+<td colspan="3" align="center" class="style1">
+<p>&nbsp;</p>
+<p>博碩文化股份有限公司 DrMaster Press Co., Ltd.<br>
+台灣新北市汐止區新台五路一段112號10樓A棟<br>
+Building A, 10F, No.112, Xintai 5th Rd., Sec.1,Xizhi Dist., New Taipei City 221, Taiwan<br>
+Tel：02-2696-2869　Fax：02-2696-2867　劃撥帳號：17484299</p>
+<p>Copyright© DrMaster Press Co., Ltd. All Rights Reserved.</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+
+<img class="ywa-10000" src="./圖解資料結構 × 演算法：運用C語言 _ 博碩文化股份有限公司_files/sp.pl.下載" alt="dot image pixel" style="display: none;"></body></html>

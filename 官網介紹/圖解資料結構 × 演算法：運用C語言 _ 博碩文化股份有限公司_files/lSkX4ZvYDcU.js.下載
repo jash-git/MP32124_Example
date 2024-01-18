@@ -1,0 +1,4 @@
+;/*FB_PKG_DELIM*/
+
+__d("ChatConfig",["invariant","ChatConfigInitialData"],(function(a,b,c,d,e,f,g,h){var i=babelHelpers["extends"]({},c("ChatConfigInitialData"));function j(a,b){return a in i?i[a]:b}function a(a){return!!j(a,!1)}function b(a,b){b===void 0&&(b=0);if(a in i){typeof i[a]==="number"||h(0,3109);return i[a]}return b}function d(a,b){i[a]=b}function e(){return i}g.get=j;g.getBool=a;g.getNumber=b;g.set=d;g.getDebugInfo=e}),98);
+__d("resize-observer-polyfill-deprecated",["resize-observer-polyfill-1.5.1"],(function(a,b,c,d,e,f){e.exports=b("resize-observer-polyfill-1.5.1")()}),null);
